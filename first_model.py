@@ -32,7 +32,7 @@ print("Predictions:", y_pred)
 mse = mean_squared_error(y_test, y_pred)
 print("Mean Squared Error:", mse)
 
-# 7. Visualize results
+# 7. Visualize results in a scatterplot
 X_1d = X['Hours_Studied'].values
 y_pred_full = model.predict(X).flatten()
 
